@@ -61,7 +61,7 @@ public class GoodServlet extends HttpServlet {
 		}
 
 		// フォワード
-		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/iineko.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/index.jsp");
 		rd.forward(request, response);
 
 	}
