@@ -16,13 +16,13 @@ import model.GoodLogic;
  * Servlet implementation class XmlServlet
  */
 
-public class XmlServlet extends HttpServlet {
+public class GoodServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	/**
 	 * @see HttpServlet#HttpServlet()
 	 */
-	public XmlServlet() {
+	public GoodServlet() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
@@ -61,7 +61,7 @@ public class XmlServlet extends HttpServlet {
 		}
 
 		// フォワード
-		RequestDispatcher rd = request.getRequestDispatcher("/index.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/iineko.jsp");
 		rd.forward(request, response);
 
 	}
