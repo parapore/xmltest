@@ -17,9 +17,13 @@
 </head>
 <body>
 <div class="ta1">
-<img alt="neko" src="2cat-323262_1280.jpg">
-<p><a href="/dev.XmlServlet?action=click"><font size="5">クリック！</font></a></p>
-<p><font size="5"><b>いいね！：${yoine.yoineCount}</b></font></p>
+
+<a href="/dev.XmlServlet?action=click">
+<img src="finger-163689_640.jpg" alt="いいね" width="300" height="200"></a>
+
+<a href="/dev.XmlServlet?action=click">
+<img src="2cat-323262_1280.jpg" alt="ねこ" width="300" height="200"></a>
+<p><font size="5"><b>いいね！：${good.goodCount}</b></font></p>
 </div>
 </body>
 </html>
