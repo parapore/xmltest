@@ -17,7 +17,7 @@
 </head>
 <body>
 <div class="ta1">
-<p><a href="/XmlServlet?action=click"><font size="5">クリック！</font></a></p>
+<p><a href="/dev.XmlServlet?action=click"><font size="5">クリック！</font></a></p>
 <p><font size="5"><b>いいね！：${yoine.yoineCount}</b></font></p>
 </div>
 </body>
