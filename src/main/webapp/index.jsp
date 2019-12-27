@@ -6,13 +6,20 @@
 <head>
 <meta charset="UTF-8">
 <style type="text/css">
-<!--
-   div.ta0 {text-align: left;}
-   div.ta1 {text-align: center;}
-   div.ta2 {text-align: right;}
-   div.ta3 {text-align: justify;}
--->
-<link rel="stylesheet" href="iineko.css">
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+html {
+  display: table;
+}
+body {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
 </style>
 <title>いいね！！！</title>
 </head>
