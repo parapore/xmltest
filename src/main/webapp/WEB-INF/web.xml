@@ -10,8 +10,5 @@
   	<description></description>
   	<servlet-class>dev.XmlServlet</servlet-class>
   </servlet>
-  <servlet-mapping>
-  	<servlet-name>XmlServlet</servlet-name>
-  	<url-pattern>/XmlServlet</url-pattern>
-  </servlet-mapping>
+
 </web-app>
