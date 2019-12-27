@@ -17,7 +17,7 @@
 </head>
 <body>
 <div class="ta1">
-<img alt="neko" src="../resources/2cat-323262_1280.jpg">
+<img alt="neko" src="/xmltest-heroku7/src/main/resources/2cat-323262_1280.jpg">
 <p><a href="/dev.XmlServlet?action=click"><font size="5">クリック！</font></a></p>
 <p><font size="5"><b>いいね！：${yoine.yoineCount}</b></font></p>
 </div>
